@@ -29,7 +29,7 @@
     "require": {
         "php": "^7.3 || ~8.0.0",
         "laminas-api-tools/api-tools-api-problem": "^1.4.0",
-        "laminas-api-tools/api-tools-content-negotiation": "dev-http-request",
+        "laminas-api-tools/api-tools-content-negotiation": "1.6.x-dev",
         "laminas-api-tools/api-tools-oauth2": "1.8.x-dev",
         "laminas-api-tools/api-tools-hal": "^1.4",
         "laminas-api-tools/api-tools-mvc-auth": "1.7.x-dev",
@@ -75,10 +75,6 @@
         "zfcampus/zf-rest": "^1.5.0"
     },
     "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/bfoosness/api-tools-content-negotiation.git"
-        },
         {
             "type": "git",
             "url": "https://github.com/iquestab/api-tools-mvc-auth.git"
